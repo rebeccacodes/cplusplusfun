@@ -26,6 +26,11 @@ int main() {
 	char letterGrade = char();
 	string comment = string();
 
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(2);
+
+
 
 	//**************HEADER**************//
 	cout << "Student Grading System (SGS)" << endl;
